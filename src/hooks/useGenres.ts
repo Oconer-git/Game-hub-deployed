@@ -8,6 +8,7 @@ export interface Genre {
   name: string;
   image_background: string;
 }
+
 const apiClient = new APIclient<Genre>("/genres");
 
 const useGenres = () =>
