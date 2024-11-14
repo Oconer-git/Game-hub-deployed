@@ -16,6 +16,7 @@ const GameScreenshots = ({gameId}: Props) => {
         <SimpleGrid 
             columns={{base:1, md:2}} 
             spacing={2}
+            marginTop={1}
         >
             {sreenshots?.map(file => 
                 <Image 
