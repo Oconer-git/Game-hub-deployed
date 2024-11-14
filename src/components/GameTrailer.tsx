@@ -1,6 +1,4 @@
-import React from 'react'
 import useTrailers from '../hooks/useTrailers'
-import { preview } from 'vite';
 
 interface Props {
     gameId: number;
